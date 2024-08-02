@@ -1,4 +1,4 @@
-FROM        shipilev/openjdk:8
+FROM        bellsoft/liberica-openjdk-debian:22
 
 LABEL       author="Softwarenoob" maintainer="admin@softwarenoob.com"
 LABEL       org.opencontainers.image.source="https://github.com/Software-Noob/pterodactyl-images"

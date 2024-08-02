@@ -1,6 +1,10 @@
-# Pterodactyl/WISP Docker Images
+# New images will not be added.
 
-Docker images that can be used with the Pterodactyl/WISP Game Panel. You can request more images by opening a new issue. These are mostly created for myself.
+I no longer use the specified game panels and thus, do not need these images. Feel free to fork and add your own. Thanks!
+
+## Pelican/Pterodactyl/WISP Docker Images
+
+Docker images that can be used with the Pelican/Pterodactyl/WISP Game Panel. You can request more images by opening a new issue. These are mostly created for myself.
 
 Additional Pterodactyl images can be found at [Parkervcp](https://github.com/parkervcp/images), [Matthewpi](https://github.com/matthewpi/images) and [Yolks](https://github.com/pterodactyl/yolks) repositories.
 
@@ -59,6 +63,8 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
   - `ghcr.io/software-noob/pterodactyl-images:java_20_zulu`
 - [Java 21 Zulu](https://github.com/Software-Noob/pterodactyl-images/tree/main/java-zulu/21)
   - `ghcr.io/software-noob/pterodactyl-images:java_21_zulu`
+- [Java 22 Zulu](https://github.com/Software-Noob/pterodactyl-images/tree/main/java-zulu/22)
+  - `ghcr.io/software-noob/pterodactyl-images:java_22_zulu`
 
 ### Java Dragonwell [AMD64/ARM64]
 
@@ -104,6 +110,8 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
   - `ghcr.io/software-noob/pterodactyl-images:java_17_graalvm`
 - [Java 21 GraalVM JDK](https://github.com/Software-Noob/pterodactyl-images/tree/main/java-graalvm/21)
   - `ghcr.io/software-noob/pterodactyl-images:java_21_graalvm`
+- [Java 22 GraalVM JDK](https://github.com/Software-Noob/pterodactyl-images/tree/main/java-graalvm/22)
+  - `ghcr.io/software-noob/pterodactyl-images:java_22_graalvm`
 
 ### Java Liberica [AMD64/ARM64]
 
@@ -115,8 +123,10 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
   - `ghcr.io/software-noob/pterodactyl-images:java_17_liberica`
 - [Java 21 Liberica](https://github.com/Software-Noob/pterodactyl-images/tree/main/java-liberica/21)
   - `ghcr.io/software-noob/pterodactyl-images:java_21_liberica`
+- [Java 22 Liberica](https://github.com/Software-Noob/pterodactyl-images/tree/main/java-liberica/22)
+  - `ghcr.io/software-noob/pterodactyl-images:java_22_liberica`
 
-### Java OpenJ9 [AMD64]
+### Java OpenJ9 [AMD64/ARM64]
 
 - [Java 8 OpenJ9](https://github.com/Software-Noob/pterodactyl-images/tree/main/java-openj9/8)
   - `ghcr.io/software-noob/pterodactyl-images:java_8_openj9`
@@ -133,9 +143,9 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
 - [Java 21 OpenJ9](https://github.com/Software-Noob/pterodactyl-images/tree/main/java-openj9/21)
   - `ghcr.io/software-noob/pterodactyl-images:java_21_openj9`
 
-### Java Shenandoah Nightly [AMD64/ARM64]
+### Java Shipilev Experimental [AMD64/ARM64]
 
-These are nightly builds. Shenandoah GC is by default shipped with Azul, Corretto and Temurin starting with Java 11
+These are [shipilev experimental builds.](https://builds.shipilev.net/) If you're looking for Shenandoah GC, it is also by default shipped with at least Azul, Corretto and Temurin images starting with Java 11.
 
 - [Java 8 Shenandoah](https://github.com/Software-Noob/pterodactyl-images/tree/main/java-shenandoah/8)
   - `ghcr.io/software-noob/pterodactyl-images:java_8_shenandoah`
@@ -143,6 +153,8 @@ These are nightly builds. Shenandoah GC is by default shipped with Azul, Corrett
   - `ghcr.io/software-noob/pterodactyl-images:java_11_shenandoah`
 - [Java 17 Shenandoah](https://github.com/Software-Noob/pterodactyl-images/tree/main/java-shenandoah/17)
   - `ghcr.io/software-noob/pterodactyl-images:java_17_shenandoah`
+- [Java 21 Shenandoah](https://github.com/Software-Noob/pterodactyl-images/tree/main/java-shenandoah/21)
+  - `ghcr.io/software-noob/pterodactyl-images:java_21_shenandoah`
 
 ### Node.js [AMD64/ARM64]
 
@@ -164,6 +176,8 @@ These are nightly builds. Shenandoah GC is by default shipped with Azul, Corrett
   - `ghcr.io/software-noob/pterodactyl-images:nodejs_20`
 - [Nodejs 21](https://github.com/Software-Noob/pterodactyl-images/tree/main/nodejs/21)
   - `ghcr.io/software-noob/pterodactyl-images:nodejs_21`
+- [Nodejs 22](https://github.com/Software-Noob/pterodactyl-images/tree/main/nodejs/22)
+  - `ghcr.io/software-noob/pterodactyl-images:nodejs_22`
 
 ### Python [AMD64/ARM64]
 

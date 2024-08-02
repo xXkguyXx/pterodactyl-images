@@ -30,6 +30,7 @@ jobs:
           - 11
           - 17
           - 21
+          - 22
     steps:
       - name: Git checkout for Github repository workspace
         uses: actions/checkout@v4
@@ -50,11 +51,10 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build and push image
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           context: ./java-graalvm
-          file: ./java-graalvm/${{ matrix.tag }}/Dockerfile
           platforms: linux/amd64,linux/arm64
+          file: ./java-graalvm/${{ matrix.tag }}/Dockerfile
           push: true
-          tags: |
-            ghcr.io/software-noob/pterodactyl-images:java_${{ matrix.tag }}_graalvm
+          tags: ghcr.io/software-noob/pterodactyl-images:java_${{ matrix.tag }}_graalvm
